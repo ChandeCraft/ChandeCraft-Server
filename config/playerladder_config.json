@@ -1,0 +1,21 @@
+{
+  "server": {
+    "mode": "RIDE",
+    "pickUpLimit": 16,
+    "stepUpLimit": 16,
+    "interactWithAnyLiving": false,
+    "allowPlayers": true,
+    "excludedLivingEntities": [
+      "minecraft:wither",
+      "minecraft:ender_dragon",
+      "minecraft:minecart",
+      "#minecraft:boat",
+      "#minecraft:dismounts_underwater"
+    ],
+    "rideExtension": true
+  },
+  "client": {
+    "allowInteractions": true
+  },
+  "lastLoadedVersion": 2
+}

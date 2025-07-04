@@ -1,0 +1,47 @@
+# === Minecraft Server: Clean Repo ===
+
+# World data
+world/
+world_nether/
+world_the_end/
+*.dat
+*.dat_old
+session.lock
+
+# Server runtime files
+eula.txt
+usercache.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+
+# Logs and reports
+logs/
+*.log
+*.gz
+
+# Modloader crap
+.fabric/
+libraries/
+cache/
+versions/
+
+# Mods (optional - exclude by default)
+mods/
+*.jar
+
+# WorldEdit unpack bloat
+config/**/.archive-unpack/
+
+# Scripts, zips, and misc trash
+*.zip
+*.bat
+*.sh
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

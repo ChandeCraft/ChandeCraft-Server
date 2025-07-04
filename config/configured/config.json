@@ -1,0 +1,13 @@
+{
+  "motd": "_",
+  "fakeHardcore": false,
+  "playerConnections": "ALLOW_ALL",
+  "playerConnectionBlockList": [],
+  "disableEnd": false,
+  "disableEndPortalFrameFilling": false,
+  "disableEyeOfEnderCasting": false,
+  "disableEndGateways": false,
+  "disableNether": false,
+  "disablePVP": false,
+  "itemDespawnAge": 6000
+}
